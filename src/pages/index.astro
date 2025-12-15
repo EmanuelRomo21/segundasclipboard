@@ -1,0 +1,169 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout title="Clipboard">
+  <header class="bg-[url('/images/bg-header-mobile.png')] sm:bg-[url('/images/bg-header-desktop.png')] bg-no-repeat bg-cover bg-top">
+    <div class="mx-auto max-w-[1110px] px-6 text-center pt-24 pb-16">
+      <img class="mx-auto w-[125px] mb-12" src="/images/logo.svg" alt="Logo de Clipboard" />
+
+      <h1 class="font-semibold leading-tight text-4xl sm:text-5xl">
+        Un historial de todo lo que copias
+      </h1>
+
+      <p class="mx-auto mt-4 max-w-[44rem] text-[hsl(201_11%_66%)]">
+        Clipboard te permite rastrear y organizar todo lo que copias.
+        Accede al instante a tu portapapeles en todos tus dispositivos.
+      </p>
+
+      <div class="mt-9 flex flex-wrap justify-center gap-4">
+        <a class="rounded-full bg-[hsl(171_66%_44%)] px-8 py-4 text-white font-semibold shadow-[0_10px_22px_rgba(0,0,0,0.12)] transition hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_14px_26px_rgba(0,0,0,0.14)]" href="#">
+          Descargar para iOS
+        </a>
+        <a class="rounded-full bg-[hsl(233_100%_69%)] px-8 py-4 text-white font-semibold shadow-[0_10px_22px_rgba(0,0,0,0.12)] transition hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_14px_26px_rgba(0,0,0,0.14)]" href="#">
+          Descargar para Mac
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-20">
+      <div class="mx-auto max-w-[1110px] px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-semibold">Lleva el control de tus fragmentos</h2>
+        <p class="mx-auto mt-4 max-w-[48rem] text-[hsl(201_11%_66%)]">
+          Clipboard guarda al instante cualquier elemento que copies en la nube, lo que significa que puedes
+          acceder a tus fragmentos inmediatamente en todos tus dispositivos. Nuestras apps para Mac y iOS te
+          ayudarán a organizarlo todo.
+        </p>
+      </div>
+
+      <div class="mx-auto max-w-[1200px] px-6 mt-16 grid gap-12 items-center lg:grid-cols-[1.15fr_0.85fr] lg:gap-20 lg:text-left">
+        <div class="lg:-translate-x-16">
+          <img src="/images/image-computer.png" alt="Computadora" />
+        </div>
+
+        <div class="grid gap-8">
+          <div>
+            <h3 class="text-xl font-semibold">Búsqueda rápida</h3>
+            <p class="mt-2 max-w-[26rem] text-[hsl(201_11%_66%)]">
+              Busca fácilmente tus fragmentos por contenido, categoría, dirección web, aplicación y más.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold">Sincronización con iCloud</h3>
+            <p class="mt-2 max-w-[26rem] text-[hsl(201_11%_66%)]">
+              Guarda y sincroniza tus fragmentos al instante en todos tus dispositivos.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold">Historial completo</h3>
+            <p class="mt-2 max-w-[26rem] text-[hsl(201_11%_66%)]">
+              Recupera cualquier fragmento desde el primer momento en que empezaste a usar la app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="mx-auto max-w-[1110px] px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-semibold">Accede a Clipboard en cualquier lugar</h2>
+        <p class="mx-auto mt-4 max-w-[48rem] text-[hsl(201_11%_66%)]">
+          Ya sea que estés en movimiento o en tu computadora, puedes acceder a todos tus
+          fragmentos de Clipboard con unos cuantos clics.
+        </p>
+
+        <img class="mx-auto mt-12 w-full max-w-[820px]" src="/images/image-devices.png" alt="Dispositivos" />
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="mx-auto max-w-[1110px] px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-semibold">Potencia tu flujo de trabajo</h2>
+        <p class="mt-4 text-[hsl(201_11%_66%)]">Tenemos las herramientas para aumentar tu productividad.</p>
+
+        <div class="mt-12 grid gap-10 md:grid-cols-3">
+          <article class="px-2 text-center">
+            <img class="mx-auto h-10 w-auto" src="/images/icon-blacklist.svg" alt="" />
+            <h3 class="mt-8 text-xl font-semibold">Crea listas negras</h3>
+            <p class="mt-3 mx-auto max-w-[22rem] text-[hsl(201_11%_66%)]">
+              Asegura que información sensible no llegue a tu portapapeles excluyendo ciertas fuentes.
+            </p>
+          </article>
+
+          <article class="px-2 text-center">
+            <img class="mx-auto h-10 w-auto" src="/images/icon-text.svg" alt="" />
+            <h3 class="mt-8 text-xl font-semibold">Fragmentos de texto plano</h3>
+            <p class="mt-3 mx-auto max-w-[22rem] text-[hsl(201_11%_66%)]">
+              Elimina el formato no deseado del texto copiado para mantener un estilo consistente.
+            </p>
+          </article>
+
+          <article class="px-2 text-center">
+            <img class="mx-auto h-10 w-auto" src="/images/icon-preview.svg" alt="" />
+            <h3 class="mt-8 text-xl font-semibold">Vista previa rápida</h3>
+            <p class="mt-3 mx-auto max-w-[22rem] text-[hsl(201_11%_66%)]">
+              Previsualiza rápidamente todos los fragmentos en tu portapapeles para acceder fácilmente.
+            </p>
+          </article>
+        </div>
+
+        <div class="mt-20 flex flex-wrap items-center justify-center gap-12">
+          <img class="h-9 w-auto" src="/images/logo-google.png" alt="Google" />
+          <img class="h-9 w-auto" src="/images/logo-ibm.png" alt="IBM" />
+          <img class="h-9 w-auto" src="/images/logo-microsoft.png" alt="Microsoft" />
+          <img class="h-9 w-auto" src="/images/logo-hp.png" alt="HP" />
+          <img class="h-9 w-auto" src="/images/logo-vector-graphics.png" alt="Vector Graphics" />
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="mx-auto max-w-[1110px] px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-semibold">Clipboard para iOS y Mac</h2>
+        <p class="mx-auto mt-4 max-w-[48rem] text-[hsl(201_11%_66%)]">
+          Disponible gratis en la App Store. Descárgalo para Mac o iOS, sincroniza con iCloud
+          y estarás listo para empezar.
+        </p>
+
+        <div class="mt-9 flex flex-wrap justify-center gap-4">
+          <a class="rounded-full bg-[hsl(171_66%_44%)] px-8 py-4 text-white font-semibold shadow-[0_10px_22px_rgba(0,0,0,0.12)] transition hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_14px_26px_rgba(0,0,0,0.14)]" href="#">
+            Descargar para iOS
+          </a>
+          <a class="rounded-full bg-[hsl(233_100%_69%)] px-8 py-4 text-white font-semibold shadow-[0_10px_22px_rgba(0,0,0,0.12)] transition hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_14px_26px_rgba(0,0,0,0.14)]" href="#">
+            Descargar para Mac
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#f5f6f8] py-10">
+    <div class="mx-auto max-w-[1110px] px-6 grid gap-8 items-center justify-items-center lg:grid-cols-[0.35fr_1fr_0.35fr] lg:justify-items-start">
+      <img class="w-[55px]" src="/images/logo.svg" alt="Clipboard" />
+
+      <nav class="grid gap-3 text-center lg:text-left lg:grid-cols-3 lg:gap-x-12" aria-label="Footer">
+        <a class="transition hover:text-[hsl(171_66%_44%)]" href="#">Preguntas frecuentes</a>
+        <a class="transition hover:text-[hsl(171_66%_44%)]" href="#">Contáctanos</a>
+        <a class="transition hover:text-[hsl(171_66%_44%)]" href="#">Política de privacidad</a>
+        <a class="transition hover:text-[hsl(171_66%_44%)]" href="#">Kit de prensa</a>
+        <a class="transition hover:text-[hsl(171_66%_44%)]" href="#">Guía de instalación</a>
+      </nav>
+
+      <div class="flex items-center gap-6 lg:justify-self-end" aria-label="Redes sociales">
+        <a class="transition hover:-translate-y-0.5 hover:opacity-80" href="#" aria-label="Facebook">
+          <img src="/images/icon-facebook.svg" alt="" />
+        </a>
+        <a class="transition hover:-translate-y-0.5 hover:opacity-80" href="#" aria-label="Twitter">
+          <img src="/images/icon-twitter.svg" alt="" />
+        </a>
+        <a class="transition hover:-translate-y-0.5 hover:opacity-80" href="#" aria-label="Instagram">
+          <img src="/images/icon-instagram.svg" alt="" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</Layout>
